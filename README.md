@@ -45,16 +45,17 @@ git cherry-pick <hash code>
 <a id="2"/><hr>
 ### 2. Python useful packaging commands
 ##### venv
-Create a virtual environment for your application. It will have its own installation directories and doesn’t share libraries with other virtual environments.
-"Imagine you have an application that needs version 1 of LibFoo, but another application requires version 2. How can you use both these applications? If you install everything into /usr/lib/python3.6/site-packages (or whatever your platform’s standard location is), it’s easy to end up in a situation where you unintentionally upgrade an application that shouldn’t be upgraded."
+Create a virtual environment for your application. It will have its own installation directories and doesn’t share libraries with other virtual environments.<br>
+"Imagine you have an application that needs version 1 of LibFoo, but another application requires version 2. How can you use both these applications? If you install everything into /usr/lib/python3.6/site-packages (or whatever your platform’s standard location is), it’s easy to end up in a situation where you unintentionally upgrade an application that shouldn’t be upgraded."<br>
 I choose to use venv, since it is available by default in Python 3.3 and later.
 ```
 python3 -m venv <DIR>
 source <DIR>/bin/activate
 ```
-Then install any needed package versions for this specific application.
-When you want to deactivate the virtual environment, just type "deactivate".
-https://packaging.python.org/tutorials/installing-packages/
+Then install any needed package versions for this specific application.<br>
+https://pypi.org/
+When you want to deactivate the virtual environment, just type "deactivate".<br>
+https://packaging.python.org/tutorials/installing-packages/<br>
 https://docs.python.org/3/library/venv.html
 ##### pip
 When using Python2.x, type 
