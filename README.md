@@ -53,7 +53,7 @@ python3 -m venv <DIR>
 source <DIR>/bin/activate
 ```
 Then install any needed package versions for this specific application.<br>
-https://pypi.org/
+https://pypi.org/<br>
 When you want to deactivate the virtual environment, just type "deactivate".<br>
 https://packaging.python.org/tutorials/installing-packages/<br>
 https://docs.python.org/3/library/venv.html
