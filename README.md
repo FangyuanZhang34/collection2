@@ -71,5 +71,6 @@ python3 -m pip install <SomePackage>
 
 <a id="3"/><hr>
 ### 3. Create Vue project
-https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
+https://code.visualstudio.com/docs/nodejs/vuejs-tutorial 
+<br>
 <a href="#top">Back to top</a>
