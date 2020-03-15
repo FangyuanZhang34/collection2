@@ -2,6 +2,7 @@ Collection
 ==========
 <a href="#1">1. Git useful commands</a><br>
 <a href="#2">2. Python useful packaging commands</a><br>
+<a href="#3">3. create Vue project</a><br>
 <br><br><br><br>
 
 <a id="1"/><hr>
@@ -66,4 +67,9 @@ when using Python3.x, type
 ```
 python3 -m pip install <SomePackage>
 ```
+<a href="#top">Back to top</a>
+
+<a id="3"/><hr>
+### 3. Create Vue project
+https://code.visualstudio.com/docs/nodejs/vuejs-tutorial
 <a href="#top">Back to top</a>
